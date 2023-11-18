@@ -1,0 +1,27 @@
+{
+  "name": "user-api",
+  "version": "1.0.0",
+  "description": "a simple API for registering and fetching a user from a database using a language of your choice.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ARMMM96/User-API.git"
+  },
+  "keywords": [
+    "Node",
+    "express",
+    "mongodb",
+    "javasript",
+    "RESTful",
+    "API"
+  ],
+  "author": "Ahmed Rabie Mahmoud Mohamed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ARMMM96/User-API/issues"
+  },
+  "homepage": "https://github.com/ARMMM96/User-API#readme"
+}
