@@ -1,11 +1,12 @@
-const express = require("express")
-const cors = require("cors")
+const express = require("express");
+const cors = require("cors");
+const connectDB = require("./database/connection");
+const app = express();
 
-const app = express()
-app.use(cors())
+app.use(cors());
 
 
-
+connectDB()
 
 
 
@@ -18,6 +19,6 @@ app.all("*", (req, res) => {
         message: "Invalid URL",
         data: {}
     })
-})
+});
 
-module.exports = app
+module.exports = app;
